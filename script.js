@@ -15,7 +15,7 @@ function simpleInterest(){
         return false;
     }
     
-    var total = (1 + rate.value * Number(time.value)) * amount.value;
+    var total = (rate.value /100 * Number(time.value)) * amount.value;
     document.getElementsByClassName("div1")[0].hidden = false;
     document.getElementsByClassName("highlight1")[0].innerHTML = amount.value;
     document.getElementsByClassName("highlight2")[0].innerHTML = rate.value;
