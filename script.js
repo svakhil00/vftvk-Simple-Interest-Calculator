@@ -1,3 +1,7 @@
+function rate(){
+    var rate = document.getElementById("interestrate");
+    document.getElementById("rateValue").innerHTML = rate.value + "%";
+}
 function simpleInterest(){
     
     var amount = document.getElementById("amount");
