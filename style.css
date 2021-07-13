@@ -1,4 +1,31 @@
-body {background-color:tan;}
-h1{color:green;}
+h1{
+    text-align: center;
+    color:gray;
+}
+body {
+    background-color:rgb(10, 10, 10);
+}
+
+.calculator{
+    background-color: white;
+    align-items:center;
+    width:400px;
+    padding: 20px;
+    margin:auto;
+    border-radius: 25px;
+}
 
 
+
+.highlight1{
+    background-color: yellow;
+}
+.highlight2{
+    background-color: yellow;
+}
+.highlight3{
+    background-color: yellow;
+}
+.highlight4{
+    background-color: yellow;
+}
