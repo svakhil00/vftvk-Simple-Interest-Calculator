@@ -8,13 +8,20 @@ body {
 
 .calculator{
     background-color: white;
-    align-items:center;
     width:400px;
     padding: 20px;
     margin:auto;
     border-radius: 25px;
 }
 
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+#amount{
+    text-align: center;
+}
 
 
 .highlight1{
