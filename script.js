@@ -1,6 +1,7 @@
 function rate(){
     var rate = document.getElementById("interestrate");
     document.getElementById("rateValue").innerHTML = rate.value + "%";
+    return true;
 }
 function simpleInterest(){
     
@@ -23,7 +24,7 @@ function simpleInterest(){
     document.getElementsByClassName("div1")[0].hidden = false;
     document.getElementsByClassName("highlight1")[0].innerHTML = amount.value;
     document.getElementsByClassName("highlight2")[0].innerHTML = rate.value;
-    document.getElementsByClassName("highlight3")[0].innerHTML = total;
+    document.getElementsByClassName("highlight3")[0].innerHTML = total.toFixed(2);
     document.getElementsByClassName("highlight4")[0].innerHTML = new Date().getFullYear() + Number(time.value);
     
 }
