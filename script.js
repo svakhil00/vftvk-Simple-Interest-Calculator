@@ -9,11 +9,6 @@ function simpleInterest(){
     var rate = document.getElementById("interestrate");
     var time = document.getElementById("years");
 
-    if(amount.value == ""){
-        window.alert("Please enter an amount")
-        amount.focus();
-        return false;
-    }
     if(amount.value < 1){
         window.alert("Please enter a positive number");
         amount.focus();

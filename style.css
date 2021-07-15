@@ -1,14 +1,16 @@
 h1{
     text-align: center;
     color:gray;
+    font-family: Verdana;
 }
 body {
     background-color:rgb(10, 10, 10);
+    font-family: Arial;
 }
 
 .calculator{
     background-color: white;
-    width:400px;
+    width:500px;
     padding: 20px;
     margin:auto;
     border-radius: 25px;
@@ -18,12 +20,23 @@ label{
     display: inline-block;
     width: 100px;
     text-align: left;
+    padding-left: 20%;
 }
 #amount{
     text-align: center;
 }
 
-
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div1{
+    width: 200px;
+    text-align: left;
+    padding-left: 20%;
+}
 .highlight1{
     background-color: yellow;
 }
